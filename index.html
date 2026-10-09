@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4f7fc" />
+  <meta name="description"
+    content="Pankaj Barai — Web Developer creating modern, responsive websites and thoughtful digital experiences." />
+  <title>Pankaj Barai — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-sidebar"
+    aria-expanded="false">
+    <i class="bi bi-list" aria-hidden="true"></i>
+  </button>
+  <div class="sidebar-backdrop" data-close-menu></div>
+
+  <aside class="sidebar" id="site-sidebar" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="Pankaj Barai, home">
+      <span class="brand-photo-frame"><img class="brand-photo" src="assets/profile-photo.jpeg"
+          alt="Pankaj Barai" /></span>
+      <span class="brand-copy"><strong>Pankaj Barai</strong><small>Web Developer</small></span>
+    </a>
+    <div class="sidebar-divider"></div>
+    <p class="sidebar-label">MENU</p>
+    <nav class="sidebar-nav">
+      <a class="nav-link active" href="#home" aria-current="page"><i class="bi bi-house-door"
+          aria-hidden="true"></i>Home</a>
+      <a class="nav-link" href="#about"><i class="bi bi-person" aria-hidden="true"></i>About Me</a>
+      <a class="nav-link" href="#skills"><i class="bi bi-code-slash" aria-hidden="true"></i>Skills</a>
+      <a class="nav-link" href="#projects"><i class="bi bi-grid" aria-hidden="true"></i>Projects</a>
+      <a class="nav-link" href="#contact"><i class="bi bi-envelope" aria-hidden="true"></i>Contact</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <div class="sidebar-divider"></div>
+      <p class="sidebar-label">FIND ME ONLINE</p>
+      <div class="social-row" aria-label="Social media profiles">
+        <a class="social-icon" href="https://github.com/pankajbarai30-boop" target="_blank"
+          rel="noopener noreferrer" aria-label="GitHub profile">
+          <i class="bi bi-github" aria-hidden="true"></i>
+        </a>
+        <span class="social-icon" role="img" aria-label="LinkedIn profile not configured">
+          <i class="bi bi-linkedin" aria-hidden="true"></i>
+        </span>
+        <a class="social-icon instagram-link" href="https://www.instagram.com/lucifer_wings109?dlrf=MTIwcjI2b3NiNXRnMw=="
+          target="_blank" rel="noopener noreferrer" aria-label="Instagram profile">
+          <i class="bi bi-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p class="sidebar-copyright">© <span data-year></span> Pankaj Barai — Designed with care.</p>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <section class="hero section-anchor" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <p class="hero-intro-label">Hi, I'm</p>
+        <h1 id="hero-title">Pankaj <span>Barai</span></h1>
+        <h2>Web Developer <span class="heading-dash"></span></h2>
+        <p class="hero-description">I build modern, responsive websites that turn ideas into intuitive digital
+          experiences. I care about clean code, considered design, and making the web feel effortless for everyone.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View My Work <i class="bi bi-arrow-up-right"
+              aria-hidden="true"></i></a>
+          <a class="button button-outline" href="#contact">Get in Touch <i class="bi bi-arrow-up-right"
+              aria-hidden="true"></i></a>
+        </div>
+        <a class="scroll-hint" href="#about"><span class="mouse-icon"></span>Scroll to explore</a>
+      </div>
+      <div class="hero-visual" role="group" aria-label="Profile card for Pankaj Barai">
+        <div class="hero-aura"></div>
+        <div class="hero-ring hero-ring-outer"></div>
+        <div class="hero-ring hero-ring-inner"></div>
+        <div class="hero-card">
+          <div class="browser-bar"><span></span><span></span><span></span><small>pankaj.dev</small></div>
+          <div class="monogram-art">
+            <img class="profile-card-photo" src="assets/workspace-photo.png"
+              alt="Pankaj Barai at his web developer workspace" />
+            <i class="bi bi-stars art-star" aria-hidden="true"></i><i class="bi bi-plus-lg art-plus"
+              aria-hidden="true"></i>
+          </div>
+          <div class="hero-card-caption"><span class="caption-avatar">PB</span><span><strong>Pankaj
+                Barai</strong><small>Building for the web</small></span><i class="bi bi-patch-check-fill"
+              aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="floating-note note-code"><span class="note-symbol">&lt;/&gt;</span><span><strong>Clean
+              code</strong><small>Thoughtfully built</small></span></div>
+        <div class="floating-note  note-device"><span
+            class="device-symbol"><i></i></span><span><strong>Responsive</strong><small>Every screen</small></span>
+        </div>
+        <span class="visual-spark spark-a">✳</span><span class="visual-spark spark-b">✦</span>
+      </div>
+
+    </section>
+
+    <section class="content-section about-section section-anchor" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow section-eyebrow">A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Design-minded. <span>Detail-driven.</span></h2>
+        </div>
+        <span class="section-index">01</span>
+      </div>
+      <div class="about-layout">
+        <div class="about-copy">
+          <p class="about-lead">I’m Pankaj Barai, a web developer based in Kolkata, India.</p>
+          <p>I enjoy creating friendly, responsive websites that make the important things feel simple. I bring ideas to
+            life with thoughtful frontend development, a sharp eye for detail, and a focus on how each experience feels
+            to use.</p>
+          <p>Curious by nature and always learning, I’m excited to collaborate, grow my craft, and build digital
+            products that make a difference.</p>
+          <a class="inline-link" href="#contact">Let’s create something together <i class="bi bi-arrow-up-right"
+              aria-hidden="true"></i></a>
+        </div>
+        <div class="about-details">
+          <article class="detail-card"><span class="detail-icon"><i class="bi bi-person"
+                aria-hidden="true"></i></span><span><small>NAME</small><strong>Pankaj Barai</strong></span></article>
+          <article class="detail-card"><span class="detail-icon"><i class="bi bi-code-slash"
+                aria-hidden="true"></i></span><span><small>ROLE</small><strong>Web Developer</strong></span></article>
+          <article class="detail-card"><span class="detail-icon"><i class="bi bi-geo-alt"
+                aria-hidden="true"></i></span><span><small>LOCATION</small><strong>Kolkata, India</strong></span>
+          </article>
+          <article class="detail-card"><span class="detail-icon"><i class="bi bi-envelope"
+                aria-hidden="true"></i></span><span><small>EMAIL</small><a
+                href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=pankajbarai30%40gmail.com"
+                target="_blank" rel="noopener noreferrer">pankajbarai30@gmail.com</a></span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section skills-section section-anchor" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow section-eyebrow">MY TOOLKIT</p>
+          <h2 id="skills-title">Skills & <span>technologies.</span></h2>
+        </div>
+        <span class="section-index">02</span>
+      </div>
+      <p class="section-description">Tools I use to bring thoughtful, polished web experiences to life.</p>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon html-icon"><i class="bi bi-filetype-html"
+              aria-hidden="true"></i></span>
+          <h3>HTML5</h3>
+          <p>Semantic structure</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon css-icon"><i class="bi bi-filetype-css"
+              aria-hidden="true"></i></span>
+          <h3>CSS3</h3>
+          <p>Modern styling</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon js-icon"><i class="bi bi-filetype-js"
+              aria-hidden="true"></i></span>
+          <h3>JavaScript</h3>
+          <p>Interactive experiences</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon bootstrap-icon"><i class="bi bi-bootstrap"
+              aria-hidden="true"></i></span>
+          <h3>Bootstrap 5</h3>
+          <p>Responsive layouts</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon git-icon"><i class="bi bi-git"
+              aria-hidden="true"></i></span>
+          <h3>Git</h3>
+          <p>Version control</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon github-icon"><i class="bi bi-github"
+              aria-hidden="true"></i></span>
+          <h3>GitHub</h3>
+          <p>Collaboration & code</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon figma-icon"><i class="bi bi-bezier2"
+              aria-hidden="true"></i></span>
+          <h3>Figma</h3>
+          <p>Design & prototyping</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon php-icon"><i class="bi bi-filetype-php"
+              aria-hidden="true"></i></span>
+          <h3>PHP</h3>
+          <p>Server-side scripting</p>
+        </article>
+        <article class="skill-card"><span class="skill-icon mysql-icon"><i class="bi bi-database"
+              aria-hidden="true"></i></span>
+          <h3>MySQL</h3>
+          <p>Relational databases</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section projects-section section-anchor" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow section-eyebrow">A FEW THINGS I’VE MADE</p>
+          <h2 id="projects-title">Selected <span>projects.</span></h2>
+        </div>
+        <span class="section-index">03</span>
+      </div>
+      <p class="section-description">A selection of ideas, designed and built for the real world.</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual event-visual" aria-hidden="true">
+            <div class="mini-browser"><span></span><span></span><span></span></div>
+            <div class="event-layout">
+              <div class="event-copy"><small>FIND YOUR NEXT</small><strong>Great<br />Experience.</strong><span
+                  class="mini-cta">Explore events <i class="bi bi-arrow-right"></i></span></div>
+              <div class="event-poster"><span class="poster-orbit"></span><small>LIVE MUSIC</small><strong>LOUD<br />&
+                  LOCAL</strong><i>FRI · 7 PM</i></div>
+            </div>
+            <span class="preview-decoration">✳</span>
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Event Hub</h3><span>01</span>
+            </div>
+            <p>Discover local events with intuitive search, location selection, rich event categories, and detailed
+              event cards.</p>
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap
+              </span><span>PHP</span><span>MySQL</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual hospital-visual" aria-hidden="true">
+            <div class="hospital-window">
+              <div class="hospital-nav"><strong><i class="bi bi-heart-pulse-fill"></i>
+                  care<span>+</span></strong><small>SERVICES&nbsp;&nbsp; DOCTORS&nbsp;&nbsp; CONTACT</small></div>
+              <div class="hospital-content">
+                <div><small>CARE THAT'S HERE FOR YOU</small><strong>Your health,<br /><em>our
+                      priority.</em></strong><span class="hospital-cta">BOOK A VISIT&nbsp; →</span></div>
+                <div class="medical-art"><i class="bi bi-heart-pulse-fill"></i><span>24/7<br />CARE</span></div>
+              </div>
+              <div class="hospital-services"><span><i class="bi bi-activity"></i> Expert care</span><span><i
+                    class="bi bi-calendar2-check"></i> Easy booking</span><span><i class="bi bi-person-hearts"></i> Our
+                  doctors</span></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Hospital Website</h3><span>02</span>
+            </div>
+            <p>A professional healthcare experience for exploring medical services, meeting doctors, and booking
+              appointments.</p>
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap
+              </span><span>PHP</span><span>MySQL</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual portfolio-visual" aria-hidden="true">
+            <div class="portfolio-window">
+              <div class="portfolio-nav"><strong>PB<span>.</span></strong><small>ABOUT&nbsp;&nbsp; WORK&nbsp;&nbsp;
+                  CONTACT</small></div>
+              <div class="portfolio-screen">
+                <div><small>HELLO, I'M</small><strong>Pankaj<br /><em>Barai.</em></strong><span
+                    class="portfolio-rule"></span><i>WEB DEVELOPER</i></div>
+                <div class="portfolio-orb"><span>PB</span></div>
+              </div>
+              <div class="portfolio-foot"><span>Thoughtful digital experiences</span><span>SCROLL ↓</span></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>Portfolio Website</h3><span>03</span>
+            </div>
+            <p>A personal portfolio sharing my introduction, skills, selected projects, and ways to get in touch.</p>
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap
+              </span><span>PHP</span><span>MySQL</span></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual shop-visual" aria-hidden="true">
+            <div class="shop-window">
+              <div class="shop-nav"><strong>form<span>&</span>field</strong><small>SHOP&nbsp;&nbsp; OUR
+                  STORY&nbsp;&nbsp; <i class="bi bi-bag"></i></small></div>
+              <div class="shop-hero">
+                <div><small>THE EVERYDAY EDIT</small><strong>Made for<br /><em>your moments.</em></strong><span>EXPLORE
+                    COLLECTION&nbsp; →</span></div>
+                <div class="product-art">
+                  <div class="product-sun"></div>
+                  <div class="product-bag"><span>f&f</span></div><span class="product-shadow"></span>
+                </div>
+              </div>
+              <div class="shop-footer"><span>CURATED GOODS</span><span>NEW SEASON · 2025</span></div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-title">
+              <h3>E-commerce Website</h3><span>04</span>
+            </div>
+            <p>A modern online shop with product categories, product cards, clear pricing, and an add-to-cart interface.
+            </p>
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap
+              </span><span>PHP</span><span>MySQL</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section contact-section section-anchor" id="contact" aria-labelledby="contact-title">
+      <div class="contact-panel">
+        <div class="contact-copy">
+          <p class="eyebrow contact-eyebrow"><span class="status-dot"></span> LET'S START A CONVERSATION</p>
+          <h2 id="contact-title">Have an idea?<br /><span>Let’s build it.</span></h2>
+          <p>Have a project in mind or just want to say hello? I’d love to hear from you.</p><a
+            class="button button-light"
+            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=pankajbarai30%40gmail.com" target="_blank"
+            rel="noopener noreferrer">Email me <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="contact-details">
+          <div class="contact-detail"><span class="contact-detail-icon"><i class="bi bi-envelope"
+                aria-hidden="true"></i></span><span><small>EMAIL ME AT</small><a
+                href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=pankajbarai30%40gmail.com"
+                target="_blank" rel="noopener noreferrer">pankajbarai30@gmail.com</a></span></div>
+          <div class="contact-detail"><span class="contact-detail-icon"><i class="bi bi-geo-alt"
+                aria-hidden="true"></i></span><span><small>BASED IN</small><strong>Kolkata, India</strong></span></div>
+          <div class="contact-socials"><small>FOLLOW ALONG</small>
+            <div class="social-row">
+              <a class="social-icon" href="https://github.com/pankajbarai30-boop" target="_blank"
+                rel="noopener noreferrer" aria-label="GitHub profile"><i class="bi bi-github"
+                  aria-hidden="true"></i></a>
+              <span class="social-icon" role="img" aria-label="LinkedIn profile not configured"><i
+                  class="bi bi-linkedin" aria-hidden="true"></i></span>
+              <a class="social-icon instagram-link"
+                href="https://www.instagram.com/lucifer_wings109?dlrf=MTIwcjI2b3NiNXRnMw==" target="_blank"
+                rel="noopener noreferrer" aria-label="Instagram profile"><i class="bi bi-instagram"
+                  aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+        <span class="contact-watermark" aria-hidden="true">PB<span>.</span></span>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
